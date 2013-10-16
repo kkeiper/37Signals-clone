@@ -135,14 +135,26 @@ h5 {
 .gradient-box a {
 	font: bold 22px "lucida grande";
 	color: #369;
-/*
-	margin-top: 20px;
-	padding-top: 300px;
-*/
+}
+
+.gradient-box:hover .arrow {
+    display: block;
+}
+
+.arrow {
+    height: 20px;
+    background-color: #ccc;
+    width: 100px;
+    position: absolute;
+    top: -20px;
+    right: -30px;
+    display: none;
+    background-image: url("#");
 }
 
 .gradient-box img {
-	margin-bottom: 10px;
+	margin: 0 auto 20px;
+    display: block;
 }
 
 .gradient-box .title {
@@ -158,19 +170,21 @@ h5 {
 }
 
 .gradient-box {
-width: 162px;
-height: 219px;
-border-radius: 5px;
-background-color: #eaeaea;	
-margin: 20px 15px;
-display: inline-block;
-border: 1px solid #e8e8e8;
-background-image: -webkit-linear-gradient(top, #ffffff, #efefef);
-background-image:    -moz-linear-gradient(top, #ffffff, #efefef);
-background-image: linear-gradient(to bottom, #ffffff 0%,#efefef 100%);
-box-shadow: 0 0 5px #efefef;
-padding: 15px 10px;
+    width: 162px;
+    height: 219px;
+    border-radius: 5px;
+    background-color: #eaeaea;	
+    margin: 20px 15px;
+    display: inline-block;
+    border: 1px solid #e8e8e8;
+    background-image: -webkit-linear-gradient(top, #ffffff, #efefef);
+    background-image:    -moz-linear-gradient(top, #ffffff, #efefef);
+    background-image: linear-gradient(to bottom, #ffffff 0%,#efefef 100%);
+    box-shadow: 0 0 5px #efefef;
+    padding: 15px 10px;
+    position: relative;
 }
+
 
 img#asterisks {
 	display: block;
