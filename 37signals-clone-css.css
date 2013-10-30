@@ -142,14 +142,24 @@ h5 {
 }
 
 .arrow {
-    height: 20px;
-    background-color: #ccc;
-    width: 100px;
-    position: absolute;
-    top: -20px;
-    right: -30px;
+    height: 69px;
+    width: 69px;
     display: none;
-    background-image: url("#");
+    background-repeat:no-repeat;
+}
+
+.arrowleft {
+    background-image: url("images/arrow-left.png");
+    position: absolute;
+    top: -30px;
+    right: -30px;
+}
+
+.arrowright {
+    background-image: url("images/arrow-right.png");
+    position: absolute;
+    top: -30px;
+    right: 80px;
 }
 
 .gradient-box img {
