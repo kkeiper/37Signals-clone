@@ -100,6 +100,24 @@ nav ul li a:hover {
 
 
 
+/*TEXT SWAP HOVER STYLES*/
+
+#default {
+visibility: visible;
+}
+
+#basecamp {
+visibility: hidden;
+}
+
+#highrise {
+visibility: hidden;
+}
+
+#campfire {
+visibility: hidden;
+}
+
 /*BODY STYLES*/
 
 #content-wrapper {
@@ -107,7 +125,6 @@ nav ul li a:hover {
 	margin: 60px auto;
 	position: relative;
 	text-align: center;
-/*	border: 1px solid blue;*/
 	height: 600px;
     padding-top: 20px;
 }
