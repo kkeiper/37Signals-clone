@@ -4,7 +4,7 @@
     <link href='http://fonts.googleapis.com/css?family=Crimson+Text:400,600,700' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" type="text/css" href="37signals-clone-css.css">
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-    <script language="javascript" type="text/javascript" src="application.js"></script>
+    <script language="javascript" type="text/javascript" src="application.js?v=1"></script>
 	<title>Kevin's 37signals Clone page</title>
 </head>
 <body>
@@ -29,47 +29,29 @@
 <div id="content-wrapper">
 	<img id="logo" src="images/logo-37s-large.png" /> 
     
-    <div id="default">
+    <div id="header-container">
     <h1>Making collaboration productive and enjoyable for people every day.</h1>
 	<h5>Frustration-free web-based apps for collaboration, sharing information, and making decisions.</h5>
     </div>
     
-    <div id="basecamp">
-    <h1> Basecamp is the project management tool you wish you had on your last project.</h1>
-	<h5>Are you still managing projects with email? Are you still using Excel for your to-do lists? It’s time to upgrade to Basecamp. Manage projects and collaborate with your team and clients the modern way.</h5>
-    
-    </div>
-    
-    <div id="highrise">
-    <h1>Making collaboration productive and enjoyable for people every day.</h1>
-	<h5>Frustration-free web-based apps for collaboration, sharing information, and making decisions.</h5>
-    
-    
-    </div>
-    
-    <div id="campfire">
-    <h1>Making collaboration productive and enjoyable for people every day.</h1>
-	<h5>Frustration-free web-based apps for collaboration, sharing information, and making decisions.</h5>
-    
-    
-    </div>
+
 
 	
-	<div class="gradient-box">
+	<div class="gradient-box" id="basecamp">
 		<img src="images/logo-bc.png" />
 		<a href="#">Basecamp</a>
 		<p class="title">Manage Projects</p>
 		<p class="description">Used by millions for project management.</p>
         <div class="arrow arrowleft"></div>
 	</div>
-	<div class="gradient-box">
+	<div class="gradient-box" id="highrise">
 		<img src="images/logo-hr.png" />
 		<a href="#">Highrise</a>
 		<p class="title">Manage Contacts</p>
 		<p class="description">Know the people you do business with.</p>
         <div class="arrow arrowleft"></div>
 	</div>
-	<div class="gradient-box">
+	<div class="gradient-box" id="campfire">
 		<img src="images/logo-cf.png" />
 		<a href="#">Campfire</a>
 		<p class="title">Work in real time</p>

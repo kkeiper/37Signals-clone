@@ -102,21 +102,26 @@ nav ul li a:hover {
 
 /*TEXT SWAP HOVER STYLES*/
 
+/*
 #default {
 visibility: visible;
 }
 
 #basecamp {
 visibility: hidden;
+display: none;
 }
 
 #highrise {
 visibility: hidden;
+display: none;
 }
 
 #campfire {
 visibility: hidden;
+display: none;
 }
+*/
 
 /*BODY STYLES*/
 
